@@ -10,7 +10,6 @@ export const viewport: Viewport = {
 };
 
 export async function generateMetadata(): Promise<Metadata> {
-  const URL = process.env.NEXT_PUBLIC_URL;
   const frameUrl = process.env.NEXT_PUBLIC_URL || "http://localhost:3000";
   return {
     title: "Base DeFi Portfolio Tracker",

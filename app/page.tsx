@@ -15,7 +15,7 @@ interface PortfolioData {
   lastUpdated: number;
 }
 
-interface DeFiPosition {
+export interface DeFiPosition {
   protocol: string;
   type: "lending" | "liquidity" | "staking" | "vault";
   token: string;

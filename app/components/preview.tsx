@@ -1,14 +1,4 @@
-import {
-  PieChart,
-  TrendingUp,
-  Play,
-  Wallet,
-  BarChart3,
-  Users,
-  Zap,
-  Share2,
-  ExternalLink,
-} from "lucide-react";
+import { TrendingUp, Play, Wallet, BarChart3, Zap, Share2 } from "lucide-react";
 
 interface Props {
   onTryDemo: () => void;

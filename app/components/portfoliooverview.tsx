@@ -1,18 +1,17 @@
-import { useState } from "react";
 import {
   TrendingUp,
   TrendingDown,
   DollarSign,
   RefreshCw,
-  Clock,
 } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
+import { DeFiPosition } from "../page";
 
 interface Props {
   portfolio: {
     totalValue: number;
     totalChange24h: number;
-    positions: any[];
+    positions: DeFiPosition[];
     lastUpdated: number;
   };
   onRefresh: () => void;
